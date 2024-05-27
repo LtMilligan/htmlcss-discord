@@ -10,6 +10,7 @@ body {
 
 header {
     background-color: #255EE9;
+    color: white;
 }
 
 .container-full {
@@ -59,7 +60,20 @@ header {
     padding: 15px 10px;
 }
 
+.list {
+    margin-top: 5px;
+}
+
 .login {
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.login-btn {
+    margin-top: 5px;
     text-align: right;
 }
 
@@ -88,6 +102,53 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.color-w {
+    color: white;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mtb-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-fs-20 {
+    font-size: 20px;
+}
+
+.text-fs-30 {
+    font-size: 40px;
+}
+
+.lh-2 {
+    line-height: 2;
+}
+
+.btn-mac {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.btn-browser {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 25px;
 }
 
 /* BACKGROUND */
