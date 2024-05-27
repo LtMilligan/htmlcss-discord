@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: lightblue;
+    background-color: #255EE9;
 }
 
 .container-full {
@@ -93,7 +93,7 @@ button {
 /* BACKGROUND */
 
 .bg-grey {
-    background-color: #D3D3D3;
+    background-color: #F5F5F5;
 }
 
 .bg-pink {
@@ -116,8 +116,11 @@ button {
     background-color: rgb(39, 39, 39);
 }
 
-.bg-blue {
-    background-color: #00008B;
+.bg-jumbo {
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bg-white {
@@ -138,6 +141,17 @@ button {
 
 .bg-green {
     background-color: green;
+}
+
+.wave {
+    background-color: #F5F5F5;
+    mask-image: url(../img/wave.svg);
+    height: 100px;
+}
+
+.rotate-xy-180 {
+    rotate: y -180deg;
+    rotate: x -180deg;
 }
 
 /* COLONNE */
