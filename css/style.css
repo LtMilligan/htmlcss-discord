@@ -22,6 +22,16 @@ header {
     margin: 0 auto;
 }
 
+.container-80 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-50 {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -37,6 +47,10 @@ header {
 
 .p-100-0 {
     padding: 100px 0;
+}
+
+.p-tb-30-50 {
+    padding: 30px 0 50px 0;
 }
 
 .p-10-0-30-0 {
@@ -130,6 +144,10 @@ li a {
     margin: 30px 0;
 }
 
+.mtb-30-60 {
+    margin: 30px 0 60px 0;
+}
+
 .p-30-70-20-70 {
     padding: 30px 70px 20px 70px;
 }
@@ -140,6 +158,10 @@ li a {
 
 .text-fs-20 {
     font-size: 20px;
+}
+
+.text-fs-25 {
+    font-size: 25px;
 }
 
 .text-fs-30 {
@@ -158,12 +180,18 @@ li a {
     padding: 10px 20px;
     margin-right: 10px;
     border-radius: 25px;
+    border: none;
 }
 
 .btn-browser {
     padding: 10px 20px;
     margin-left: 10px;
     border-radius: 25px;
+    border: none;
+}
+
+.w-100 {
+    width: 100%;
 }
 
 /* BACKGROUND */
@@ -199,6 +227,13 @@ li a {
     background-size: cover;
 }
 
+.bg-item4-big {
+    background-image: url(../img/item4-big.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .bg-white {
     background-color: white;
 }
@@ -217,6 +252,17 @@ li a {
 
 .bg-green {
     background-color: green;
+}
+
+.bg-lilla {
+    background-color: #7289DA;
+}
+
+.bg-star {
+    background-image: url(../img/stars.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .wave {
